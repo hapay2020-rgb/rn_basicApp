@@ -4,8 +4,7 @@ import { StatusBar } from "expo-status-bar";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <StatusBar style="dark" hidden={false} 
-      /> 
+      <StatusBar style="dark" hidden={false} /> 
       <Text style={styles.mainText}>Hello World!</Text>
     </View>
   );
